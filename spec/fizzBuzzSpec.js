@@ -11,4 +11,11 @@ describe('Fizzbuzz', function() {
 
   });
 
+  describe('should return fizz when 3', function() {
+
+    
+
+
+  });
+
 });
