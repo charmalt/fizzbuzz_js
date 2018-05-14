@@ -1,5 +1,9 @@
 function Fizzbuzz() { }
 
 Fizzbuzz.prototype.choose = function(number){
-  return number;
+  if (number === 3) {
+    return 'fizz';
+  } else {
+    return number;
+  }
 }
